@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pinterest</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+      <link rel="icon" type="image/png" href="./images/favicon.png">
+  </head>
+  <body>
+    <!-- navigation - bar -->
+    <nav class="navbar">
+      <div class="logo-explore">
+        <img src="./images/Pinterest-Logo.png" alt="pintrest logo" />
+        <a class="explore" href="#">Explore</a>
+      </div>
+
+      <div class="search-bar-wrapper">
+        <div class="search-bar">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input
+            type="text"
+            placeholder="Search for easy dinners, fashion, etc."
+          />
+        </div>
+      </div>
+
+      <div class="nav-links">
+        <a href="#">About</a>
+        <a href="#">Businesses</a>
+        <a href="#">Create</a>
+        <a href="#">News</a>
+        <button class="btn-login">Log in</button>
+        <button class="btn-signup">Sign up</button>
+      </div>
+    </nav>
+    <!-- section 1 -->
+    <div class="section-1">
+      <div class="section-1_left-div">
+        <h2>Create the life you love on Pinterest</h2>
+        <button class="join">Join Pinterest for free</button>
+        <button class="account">I already have an account</button>
+      </div>
+      <div class="section-1_right-div">
+        <div class="section-1_img">
+          <img src="./images/section-1_image.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- section 2 -->
+    <div class="section-2">
+      <div class="heading">
+        <h2>Step into soccer season</h2>
+        <p>Flex your fandom and score fresh inspiration for every match.</p>
+      </div>
+      <div class="video-container">
+        <video autoplay muted loop id="myVideo">
+          <source src="./images/Section-2_video.mp4" type="video/mp4" />
+        </video>
+
+        <button class="pause-btn" onclick="toggleVideo()">
+          <i class="fa-solid fa-pause"></i>
+        </button>
+      </div>
+      <div class="more-idea">
+        <h2>More winning ideas</h2>
+        <button class="see-all">See all</button>
+      </div>
+
+      <div class="scroll-div">
+        <div class="box">
+          <img src="./images/scroll_1.jpg" title="img" />
+
+          <h3>Sports fans birthday ideas</h3>
+          <h4>Inspiration</h4>
+          <p>61 Pins · 3w</p>
+        </div>
+
+        <div class="box">
+          <img src="./images/scroll_2.jpg" title="img" />
+          <h3>Sporty hairstyles for active</h3>
+          <h4>Beauty</h4>
+          <p>79 Pins · 3w</p>
+        </div>
+
+        <div class="box">
+          <img src="./images/scroll_3.jpg" title="img" />
+          <h3>Soccer fan aesthetic</h3>
+          <h4>Pinterest Predicts</h4>
+          <p>66 Pins · 5d</p>
+        </div>
+
+        <div class="box">
+          <img src="./images/scroll_4.jpg" title="img" />
+          <h3>Sporty chic soccer looks</h3>
+          <h4>Pinterest</h4>
+          <p>165 Pins · 1w</p>
+        </div>
+      </div>
+    </div>
+    <div class="section-3">
+      <div class="heading-2">
+        <h2>Bring your favorite ideas to life</h2>
+        <p>
+          With Pinterest, you can unlock tools that spark your creativity and
+          help you find more inspiration.
+        </p>
+      </div>
+      <div class="first-box">
+        <div class="left-img-1">
+          <img src="./images/box_1.png" alt="" />
+        </div>
+        <div class="right-text-1">
+          <h2>Search by skin tone</h2>
+          <p>
+            Search with skin tone ranges for beauty ideas that represent you
+          </p>
+          <button class="join-pintrest">Join Pinterest</button>
+        </div>
+      </div>
+      <!-- second box -->
+      <div class="second-box">
+        <div class="right-text-1">
+          <h2>Collaborate with group boards</h2>
+          <p>Visualize your ideas with others, using a Pinterest account</p>
+          <button class="join-pintrest">Join Pinterest</button>
+        </div>
+        <div class="left-img-1">
+          <img src="./images/box_2.png" alt="" />
+        </div>
+      </div>
+      <!-- third section -->
+      <div class="third-box">
+        <div class="left-img-1">
+          <img src="./images/box_3.png" alt="" />
+        </div>
+        <div class="right-text-1">
+          <h2>Search visually with images</h2>
+          <p>Search objects within an image to find more styles you’ll love</p>
+          <button class="join-pintrest">Join Pinterest</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- contact page -->
+    <div class="signup-page">
+      <img class="bg-img" src="./images/contact-background.png" / title="contact-background">
+
+      <div class="overlay"></div>
+
+      <div class="left-text">
+        <h1>
+          Sign up to get<br />
+          your ideas
+        </h1>
+      </div>
+
+      <div class="signup-card">
+        <h2>Welcome to Pinterest</h2>
+        <p>Find new ideas to try</p>
+
+        <label>Full Name</label>
+        <input type="text" placeholder="Full Name" />
+        <label>Email</label>
+        <input type="text" placeholder="Email" />
+
+        <label>Password</label>
+        <input type="password" placeholder="Create a password" />
+        <label>Number</label>
+        <input type="number" placeholder="Phone Number" />
+        <button>Continue</button>
+      </div>
+    </div>
+
+    <footer class="footer">
+    <div class="footer-container">
+
+        <div class="footer-logo">
+           <img src="./images/footer-logo.png" alt="pintrest logo">
+            <p>2026 Pinterest | Shubh Chincholkar</p>
+        </div>
+
+        <div class="footer-column">
+            <h3>Get the app</h3>
+            <a href="#">iOS</a>
+            <a href="#">Android</a>
+        </div>
+
+        <div class="footer-column">
+            <h3>Quick links</h3>
+            <a href="#">Explore</a>
+            <a href="#">Shop</a>
+            <a href="#">Users</a>
+            <a href="#">Collections</a>
+            <a href="#">Shopping</a>
+            <a href="#">Help Center</a>
+        </div>
+
+        <div class="footer-column">
+            <h3>Policies</h3>
+            <a href="#">Terms of service</a>
+            <a href="#">Privacy policy</a>
+            <a href="#">Non-user notice</a>
+        </div>
+
+    </div>
+    <p class="last-line">Created By Shubh Chincholkar | <a target="_blank" class="handle" href="https://www.instagram.com/renderwithshubh/" rel="noopener noreferrer" >@renderwithshubh</a></p>
+</footer>
+    <script>
+      let video = document.getElementById("myVideo");
+      let icon = document.querySelector(".pause-btn i");
+
+      function toggleVideo() {
+        if (video.paused) {
+          video.play();
+          icon.className = "fa-solid fa-pause";
+        } else {
+          video.pause();
+          icon.className = "fa-solid fa-play";
+        }
+      }
+    </script>
+  </body>
+</html>
