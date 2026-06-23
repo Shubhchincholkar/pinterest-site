@@ -6,7 +6,9 @@
 
   This is a Pinterest Web-page Clone, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
 
-  <a href="https://shubhchincholkar.github.io/pinterest-site/"><strong>➥ Live Demo</strong></a>
+  <a href="https://pinterest-site.netlify.app/<img width="1917" height="1012" alt="Screenshot 2026-06-23 184007" src="https://github.com/user-attachments/assets/e0135ebc-fe4a-45d5-9e4d-e353d12e4738" />
+<img width="1917" height="1012" alt="Screenshot 2026-06-23 184007" src="https://github.com/user-attachments/assets/d5a59509-0cd5-45c0-a233-42516ca7b0b9" />
+"><strong>➥ Live Demo</strong></a>
 
 </div>
 
